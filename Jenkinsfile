@@ -8,7 +8,6 @@ pipeline{
         }
     
     
-    
         Stage('Build'){
             Steps{
                 echo 'Build'
