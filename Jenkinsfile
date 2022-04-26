@@ -1,23 +1,23 @@
-pipeline{
+pipeline {
     agent any
     stages{
-        Stage('Checkout'){
-            Steps{
+        Stage('Checkout') {
+            Steps {
                echo 'Checkout' 
             }
         }
     
     
-        Stage('Build'){
-            Steps{
+        Stage('Build') {
+            Steps {
                 echo 'Build'
             }
         }
     
 
     
-        Stage('Test'){
-            Steps{
+        Stage('Test') {
+            Steps {
                echo 'Test' 
             }
         }
