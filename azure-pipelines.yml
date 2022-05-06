@@ -7,7 +7,7 @@ trigger:
 - '*'
 
 pool:
-  name:Demo
+  name: Demo
 
 steps:
 - task: Maven@3
